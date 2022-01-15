@@ -6,7 +6,6 @@ try:
 except ImportError as error:
     from distutils.core import setup
 
-
 version_file = join(dirname(abspath(__file__)), 'SoapLibrary', 'version.py')
 
 with open(version_file) as file:
